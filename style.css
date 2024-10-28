@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(13, 3, 43);
+}
+
+#history-container 
+{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+#game-container{
+    max-width: 500px;
+    max-height: 600px;
+    color: white;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 10px;
+    margin-top:20%;
+}
+
+#hero-stats, #monster-stats,#controls-container {
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+
+}
+
+#monster-stats{
+    display: none;
+    background-color: red;
+}
+
+.stat {
+    padding-right: 50px;
+  }
+
